@@ -1,0 +1,40 @@
+.carousel {
+  top: 20em;
+  width: 600px;
+  left: 25em;
+}
+
+.btn,
+.btn-left,
+.btn-right {
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  padding: 1em;
+  z-index: 1020;
+}
+
+.current {
+  z-index: 1000;
+}
+
+/* .image-1,
+.image-2,
+.image-3 {
+  -webkit-animation: slide-in 0.5s forwards;
+  -webkit-animation-delay: 2s;
+  animation: slide-in 0.5s forwards;
+  animation-delay: 2s;
+} */
+
+@-webkit-keyframes slide-in {
+    100% {
+      left: 0;
+    }
+}
+
+@keyframes slide-in {
+    100% {
+      left: 0;
+    }
+}
